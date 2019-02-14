@@ -1,67 +1,163 @@
 html{
-    background-color: whitesmoke
+  background-color: whitesmoke
 
 }
 body{
-    margin: 50px;
-    padding: 20px;
+  margin: 0 auto;
+  padding: 15% ;
 }
 h1{
-    padding:35px;
-    border: 5px solid hsl(190, 89%, 75%);
-    background: rgb(1,55, 121);
-    color: white;
-    
+  padding:35px;
+  border: 5px solid hsl(190, 89%, 75%);
+  background: rgb(1,55, 121);
+  color: white;
+  
 }
 .dog_filter{
-    border: 5px rgb(146, 234, 251);
-    padding: 15%;
-    background: rgb(241,237,238);
-    color: solid black;
+  border: 5px rgb(146, 234, 251);
+  padding: 3%;
+  background: rgb(241,237,238);
+  color: solid black;
 }
 
 .gender {
-    float: left;
-    width: 20%;
-    column-gap: 10%;
+  float: left;
+  width: 20%;
+  column-gap: 10%;
 }
 .Age {
-    float: left;
-    width: 20%;
-    column-gap: 10%;
+  float: left;
+  width: 20%;
+  column-gap: 10%;
 }
 .size {
-    float: left;
-    width: 20%;
-    column-gap: 10%;
+  float: left;
+  width: 20%;
+  column-gap: 10%;
 }
 .traits {
-        float: left;
-        width: 20%;
-        column-gap: 10%;
+      float: left;
+      width: 20%;
+      column-gap: 10%;
 }
 .column {
-    float: left;
-    width: 25%;
-    padding: 3px;
-  }
-    .dogs::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .column2 {
-    float: left;
-    width: 25%;
-    padding: 3px;
-  }
-  column {
-    float: left;
-    width: 25%;
-    padding: 3px;
-  }
-  .row4{
-    display: flex;
-    justify-content: center;
-  }
+  float: left;
+  width: 30%;
+  padding: 3px;
+  overflow-wrap: 
+}
+  .dogs::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.column2 {
+  float: left;
+  width: 30%;
+  padding: 3px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 3px;
+}
+/* .overlay{
+  display: flex;
+  justify-content: center;
+} */
+.dog_filter{
+  display: flex;
+  align-content: center;
+  margin: 3rem;
+  flex-wrap: wrap;
   
+}
+
+.overlay{
+  padding:35px;
+  align-items: flex-start;
+  display:flex;
+  flex-direction: row;
+  align-content: center;
+  display: flex; 
+  width: 1000px;
+  
+
+}
+
+.dogs{
+  display: flex;
+  flex-wrap: wrap-reverse;
+
+}
+
+.bluetags{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 3px;
+  margin: 1px;
+}
+.Tags{
+  border:3px; 
+  border-style:solid blue; 
+  padding:.1em;
+  background: rgb(118, 223, 243);
+  border-radius: 3em;
+}
+/* nav {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  height: 15rem;
+  width: 100%;
+} */
+
+.donate {
+  width: 500px;
+  text-align: center;
+  line-height: 15rem;
+  color: white;
+  background-image: url(starter_files/images/donate.jpg);
+  background-color: rgb(100, 114, 240 );
+  background-blend-mode: overlay;
+  background-position: center;
+  /* display: flex;
+  justify-content: flex-start */
+}
+.volunteer {
+  width: 500px;
+  text-align: center;
+  line-height: 15rem;
+  color: white;
+  background-image: url(starter_files/images/volunteer.jpg);
+  background-color: rgb(100, 114, 240);
+  background-blend-mode: overlay;
+  background-position: center;
+}
+.our_location {
+  width: 500px;
+  text-align: center;
+  line-height: 15rem;
+  color: white;
+  background-image: url(starter_files/images/location.png);
+  background-color: rgb(100, 114, 240);
+  background-blend-mode: overlay;
+  background-position: center;
+}
+footer{
+  /* margin: 0 auto; */
+  /* display: flex; */ */
+  /* flex-direction: row;
+  
+ 
+  /* align-content: center; */
+  
+   /* width: 100%;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: auto; */
+} 
